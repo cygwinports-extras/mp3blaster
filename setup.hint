@@ -1,5 +1,5 @@
 category: Audio
-requires: cygwin libgcc1 libncurses9 libsidplay1 libstdc++6 libvorbisfile3
+requires: libgcc1 libncurses9 libsidplay1 libstdc++6 libvorbisfile3
 sdesc: "Console MP3/Ogg/Sid/Wav player"
 ldesc: "Mp3blaster is an mp3 player for computers running a UNIX-like 
 operating system, Its interface is entirely text based, thereby 
