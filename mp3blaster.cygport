@@ -1,0 +1,24 @@
+NAME="mp3blaster"
+VERSION=3.2.5
+RELEASE=1
+CATEGORY="Audio"
+SUMMARY="Console MP3/Ogg/Sid/Wav player"
+DESCRIPTION="Mp3blaster is an mp3 player. Its interface is entirely text based,
+but this does not limit the way you can control the player whilst playing; just
+like any graphical mp3 player, there are cd-style buttons like play, stop,
+pause, next track, etc."
+HOMEPAGE="http://mp3blaster.sourceforge.net/"
+SRC_URI="mirror://sourceforge/mp3blaster/${NAME}-${VERSION}.tar.gz"
+PATCH_URI="3.2.5-as-needed.patch"
+
+CYGCONF_ARGS="
+	--disable-newthreads
+	--with-esd
+	--without-lirc
+	--without-nas
+	--with-oggvorbis
+	--with-oss
+	--without-pth
+	--without-sdl
+	--with-sidplay
+"
