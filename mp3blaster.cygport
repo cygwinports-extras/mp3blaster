@@ -1,6 +1,6 @@
 NAME="mp3blaster"
 VERSION=3.2.5
-RELEASE=1
+RELEASE=2
 CATEGORY="Audio"
 SUMMARY="Console MP3/Ogg/Sid/Wav player"
 DESCRIPTION="Mp3blaster is an mp3 player. Its interface is entirely text based,
